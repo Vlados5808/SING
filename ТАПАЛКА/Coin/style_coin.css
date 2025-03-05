@@ -17,7 +17,7 @@ header {
     display: flex;
     align-items: center;
     width: 100vw; 
-    height: 82px;
+    height: 50px;
     background-color: #E0E0E0;
     padding: 16px 12px; 
     background-size: cover; 
@@ -161,16 +161,16 @@ header {
     -webkit-mask-image: linear-gradient(to bottom, #FAFAFA calc(100% - 41px), rgba(250, 250, 250, 0) 100%); 
     padding-left: 20px;
     position: absolute;
-    top: 130px; 
-    left: 120px;
+    top: 120px; 
+    left: 170px;
     margin: 0 12px;
 }
 .upgrade-cards-container::-webkit-scrollbar {
     display: none;
 }
 .upgrade-card {
-    width: 384px;
-    height: 108px;
+    width: 367px;
+    height: 91px;
     border: 1px solid #AFB1B6;
     display: flex;
     align-items: center;
