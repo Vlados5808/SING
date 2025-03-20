@@ -107,7 +107,6 @@ main.mainn {
     height: 118%;
     background-color: #f8f8f8;
 }
-
 .mmmm {
     display: flex;
     flex-direction: column;
@@ -120,7 +119,6 @@ main.mainn {
     transition: transform 0.2s ease;
     cursor: pointer;
 }
-
 .upgrade-cards-container {
     display: flex;
     flex-direction: column;
@@ -133,13 +131,11 @@ main.mainn {
     display: none;
 }
 .upgrade-card {
-    width: 367px;
-    height: 91px;
     border: 1px solid #AFB1B6;
     display: flex;
     gap: 12px;
     align-items: flex-start;
-    padding:16px 24px 16px 24px;
+    padding:16px 24px ;
     border-radius: 8px;
 }
 .upgrade-card-image {
@@ -151,7 +147,6 @@ main.mainn {
 .upgrade-card-content {
     color: white;
     flex-grow: 1;
-    padding: 10;
     display: flex;
     gap: 2px;   
     flex-direction: column;
@@ -178,7 +173,7 @@ main.mainn {
     border-radius: 12px;
     cursor: pointer;
     font-weight: bold;
-    padding: 10px 16px 10px 16px;
+    padding: 10px 16px;
     align-self: flex-end;
 }
 .upgrade-card-button:hover {
