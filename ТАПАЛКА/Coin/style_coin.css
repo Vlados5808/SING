@@ -64,6 +64,7 @@ main.mainn {
     align-items: flex-start;
     justify-content: center;
     gap: 20px;
+    padding: 40px 0px 0px 0px;
 }
 
 .large-box {
@@ -74,7 +75,6 @@ main.mainn {
     justify-content: center;
     background-color: #43464D;
     border-radius: 10px;
-
 }
 .box-section {
     flex: 1;
@@ -126,9 +126,6 @@ main.mainn {
     max-height: calc(100vh - 216px);
     overflow-y: scroll;
     mask-image: linear-gradient(to bottom, #FAFAFA calc(100% - 41px), rgba(250, 250, 250, 0) 100%);
-}
-.upgrade-cards-container::-webkit-scrollbar {
-    display: none;
 }
 .upgrade-card {
     border: 1px solid #AFB1B6;
@@ -182,6 +179,9 @@ main.mainn {
 }
 .upgrade-card:hover {
     border: 1px solid #121212;
+}
+.button-arrow{
+    cursor: pointer;
 }
 footer {
     background-color: #61646B;
